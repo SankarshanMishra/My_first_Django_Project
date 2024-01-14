@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Logged in user</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  {% comment %} <meta name="description" content="" /> {% endcomment %}
+  {% comment %} <link rel="icon" href="favicon.png"> {% endcomment %}
+</head>
+<body>
+  {% comment %} <h1>Hello, world!</h1> {% endcomment %}
+  welcome{{request.user}}
+  <p>
+    This is the best website and you are very lucky to be here </p>
+    <a heref="/logout">Logout</a>
+</body>
+</html>
